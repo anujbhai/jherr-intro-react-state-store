@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Bellota Text", cursive;
+  background-color: #e0e0e0;
+  color: #4a4a4a;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+th {
+  color: #2e2e2e;
+  font-family: "Prompt", sans-serif;
+}
+
+button {
+  background-color: #4a4a4a;
+  color: #bbbbbb;
+  border-style: none;
+  border: 1px solid #2e2e2e;
+  border-radius: 4px;
+  padding: 5px 15px;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+button:hover {
+  color: #e0e0e0;
+  background-color: #2e2e2e;
+  border: 1px solid #000000;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table > tbody > tr > td {
+  padding: 7px 5px;
+}
+table > tbody > tr {
+  background-color: rgba(0, 0, 0, 0);
+  transition: background-color 0.2s ease-in;
+}
+table > tbody > tr:hover {
+  background-color: rgba(0, 0, 0, 0.06);
+}
+
+th {
+  text-align: left;
+  font-size: x-large;
+}
+
+input {
+  box-sizing: border-box;
+  font-family: "Bellota Text", cursive;
+  width: 100%;
+  font-size: x-large;
+  padding: 0.5rem;
+  border: 1px solid #bbbbbb;
+  border-radius: 5px;
+}
+input:focus {
+  outline: 0;
+}
+
+.title {
+  text-align: center;
+}
+
+.info-container {
+  padding: 15px;
+  background-color: #f0f0f0;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+}
